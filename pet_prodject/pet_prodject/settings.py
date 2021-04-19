@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'city.apps.CityConfig',
     'interest_place.apps.InterestPlaceConfig',
+    'booking.apps.BookingConfig'
 ]
 
 MIDDLEWARE = [
