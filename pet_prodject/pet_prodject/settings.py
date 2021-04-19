@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'interest_place.apps.InterestPlaceConfig',
     'booking.apps.BookingConfig',
     'custom_category.apps.CustomCategoryConfig',
-    'delivery.apps.DeliveryConfig'
+    'delivery.apps.DeliveryConfig',
+    'food_point.apps.FoodPointConfig',
+
 ]
 
 MIDDLEWARE = [
