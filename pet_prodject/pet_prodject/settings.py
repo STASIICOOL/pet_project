@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'custom_category.apps.CustomCategoryConfig',
     'delivery.apps.DeliveryConfig',
     'food_point.apps.FoodPointConfig',
+    'news.apps.NewsConfig'
 
 ]
 
