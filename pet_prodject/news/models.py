@@ -4,6 +4,6 @@ from city.models import City
 
 class News(models.Model):
     name = models.CharField(max_length=50)
-    description = models.CharField()
+    description = models.CharField(max_length=150)
     image = models.ImageField()
     city = models.ForeignKey(City,on_delete=models.DO_NOTHING)

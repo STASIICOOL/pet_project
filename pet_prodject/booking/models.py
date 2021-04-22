@@ -16,5 +16,5 @@ class Number_housing(models.Model):
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=200)
     image = models.ImageField()
-    price = models.CharField()
+    price = models.CharField(max_length=50)
     city = models.ForeignKey(Housing, on_delete=models.DO_NOTHING)

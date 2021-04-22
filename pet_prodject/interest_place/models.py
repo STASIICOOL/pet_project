@@ -4,7 +4,7 @@ from city.models import City
 
 class InterestingPlace(models.Model):
     name = models.CharField(max_length=50)
-    description = models.CharField()
+    description = models.CharField(max_length=150)
     image = models.ImageField()
     longitude = models.IntegerField()
     latitude = models.IntegerField()
