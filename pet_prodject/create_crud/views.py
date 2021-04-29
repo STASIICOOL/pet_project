@@ -57,10 +57,6 @@ def detail_view_housing(request, id):
     return render(request, "detail_view_housing.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_housing.html", context)
 
 
 
@@ -117,10 +113,6 @@ def detail_view_number_housing(request, id):
     return render(request, "detail_view_number_housing.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_number_housing.html", context)
 
 
 
@@ -177,10 +169,6 @@ def detail_view_city(request, id):
     return render(request, "detail_view_city.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_city.html", context)
 
 
 
@@ -237,10 +225,6 @@ def detail_view_category(request, id):
     return render(request, "detail_view_category.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_category.html", context)
 
 
 
@@ -297,10 +281,6 @@ def detail_view_post(request, id):
     return render(request, "detail_view_post.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_post.html", context)
 
 
 
@@ -357,10 +337,6 @@ def detail_view_delivery(request, id):
     return render(request, "detail_view_delivery.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_delivery.html", context)
 
 
 
@@ -417,10 +393,6 @@ def detail_view_food(request, id):
     return render(request, "detail_view_food.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_food.html", context)
 
 
 
@@ -477,10 +449,6 @@ def detail_view_food_place(request, id):
     return render(request, "detail_view_food_place.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_food_place.html", context)
 
 
 
@@ -537,10 +505,6 @@ def detail_view_layout(request, id):
     return render(request, "detail_view_layout.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_layout.html", context)
 
 
 
@@ -597,10 +561,6 @@ def detail_view_news(request, id):
     return render(request, "detail_view_news.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_news.html", context)
 
 
 
@@ -657,9 +617,5 @@ def detail_view_interesting_place(request, id):
     return render(request, "detail_view_interesting_place.html", context)
 
 
-    # add form dictionary to context
-    context["form"] = form
-
-    return render(request, "update_view_interesting_place.html", context)
 
 
